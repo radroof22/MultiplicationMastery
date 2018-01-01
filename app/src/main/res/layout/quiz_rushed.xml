@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <TextView
+        android:text="Good Job/ Nice Try"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/greetTV"
+        android:layout_weight="0.09"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <TextView
+        android:text="Time: 1 Minute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvForPer"
+        android:layout_weight="0.09"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <TextView
+        android:text="Amount Correct: 15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreDecimal"
+        android:layout_weight="0.47"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:text="Retry"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="retry"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:text="Home"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:onClick="goToHomeScreen"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp" />
+
+</LinearLayout>

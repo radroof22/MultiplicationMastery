@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elo.multiplicationmastery">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuizHome" />
+        <activity android:name=".Table" />
+        <activity android:name=".QuizNormal" />
+        <activity android:name=".QuizTarget" />
+        <activity android:name=".QuizTime" />
+        <activity android:name=".QuizScored"></activity>
+        <activity android:name=".QuizRush"></activity>
+        <activity android:name=".QuizRushED"></activity>
+    </application>
+
+</manifest>
